@@ -10,5 +10,4 @@ seats = data.collect { instructions -> seat(instructions, 7) }
 println "HighestID: ${seats.max()}"
 
 mySeat = (0..seats.size()).collect { id -> seats.contains(id) ? -1 : id }.max()
-assert mySeat != -1
 println "My seat ID: $mySeat"
