@@ -1,3 +1,5 @@
+// Compile: g++ day23.cpp -o a -std=c++14 -O3 -g
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
